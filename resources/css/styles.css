@@ -1,0 +1,309 @@
+body {
+  font-family:Arial, helvetica, sans-serif;
+}
+
+#loginpromo{
+  text-align: center;
+  padding:40px;
+  background:url(../../resources/images/background.jpg);
+  background-size:cover;
+  height: 650px;
+}
+
+#formContainer{
+  width: 450px;
+  margin-top: 150px;
+}
+
+#formContainer .form-control{
+  margin-bottom: 15px;
+}
+
+#formContainer label{
+  color: white;
+}
+
+#formContainer a{
+  color: white;
+}
+
+#formContainer #forgetpass{
+  margin-top: 10px;
+}
+
+#promo {
+  text-align:center;
+  padding:40px;
+  background:url(../../resources/images/background.jpg);
+  background-size:cover;
+}
+
+.navbar {
+    -webkit-box-shadow: 0 8px 6px -6px #999;
+    -moz-box-shadow: 0 8px 6px -6px #999;
+    box-shadow: 0 8px 6px -6px #999;
+    background-color: black;
+    /*background-color: rgba(255,255,255,0.75);*/
+}
+
+#userProfile{
+  margin-right: 20px;
+  margin-top: 4px;
+  border: none;
+  padding: 10px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 50%;
+}
+
+#userProfile .fa{
+  font-size: 16px;
+}
+
+#promo .jumbotron {
+  border-radius:20px;
+  padding:40px;
+  background-color:rgba(255,255,255,0.75);
+  max-width:800px;
+  margin:0px auto;
+}
+
+.site-section {
+  text-align:center;
+  padding-bottom:70px;
+}
+
+.site-section h1 {
+  font-weight:normal;
+  margin-bottom:30px;
+  margin-top:60px;
+}
+
+#welcome p {
+  max-width:800px;
+  font-size:20px;
+  margin:0 auto;
+}
+
+#why .item {
+  padding:36px;
+}
+
+#why i {
+  font-size:42px;
+}
+
+#why .item h2 {
+  font-weight:normal;
+  margin-top:13px;
+  margin-bottom:20px;
+  font-size:24px;
+}
+
+.dark-section {
+  background-color:#eff7fb;
+}
+
+#logo {
+  max-height:30px;
+  margin-right:10px;
+  margin-bottom:-3px;
+  display:inline-block;
+}
+
+.navbarbutton {
+  margin-left:20px;
+}
+
+
+
+#userdetails{
+  border-radius: 50px;
+}
+
+#previousnextbuttons{
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#previousnextbuttons button {
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+}
+
+
+#previousnextbuttons .previous {
+    background-color: #f1f1f1;
+    color: black;
+}
+
+#previousnextbuttons .next {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.thumbnail #threadAnswers{
+  border: 0 none;
+  box-shadow: none;
+}
+
+#threadQuestion{
+  margin-top: 30px;
+}
+
+.container .nav{
+  margin-top: 20px;
+}
+
+.thumbnail{
+  margin-top: 20px;
+}
+
+.thumbnail .btn{
+  float: right;
+}
+
+
+.thumbnail .caption{
+  padding-bottom: 40px;
+}
+
+.thumbnail .caption .btn{
+  margin-left: 10px;
+}
+
+#optionButtons .btn{
+  float: right;
+  margin-top: 30px;
+  margin-right: 10px;
+}
+
+#optionButtons #searchbtn{
+  font-size: 20px;
+}
+
+#optionButtons input{
+  float: right;
+  width: 300px;
+  margin-top: 30px;
+}
+
+#searchButtons .btn{
+  font-size: 20px;
+  float: right;
+  margin-right: 10px;
+}
+
+#searchButtons input{
+  float: right;
+  width: 300px;
+}
+
+#content{
+  margin-top: 50px;
+}
+
+#course-section{
+  margin-top: 65px;
+}
+
+.container #threadQuestion{
+  margin-top: 95px;
+}
+
+.modal .modal-body .form-control{
+  margin-bottom: 20px;
+}
+
+.modal .modal-body #modalbuttons{
+  text-align: center;
+}
+
+.modal .modal-body .btn{
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+.video-section{
+  margin-top:65px;
+}
+
+.video-header{
+  color: white;
+  background-color: #395D87;
+  padding:5px;
+  padding-left: 10px;
+}
+
+#video-player-header{
+  width: 800px;
+}
+
+.thumbnail-header{
+  width: 300px;
+}
+
+.thumbnail-details{
+  margin-top: -12px;
+  padding-left: 10px;
+}
+
+#video-course-description{
+  margin-top: -30px;
+  font-size: 15px;
+  width: 800px;
+  background-color: #eff7fb;
+  padding: 20px;
+}
+
+
+.video-course-content{
+  float: right;
+  width: 300px;
+  margin-top: -65px;
+}
+
+#video-option-buttons{
+  float: right;
+  width: 300px;
+}
+
+
+.duplicate h3, .duplicate p{
+  color: rgb(216,216,216);
+}
+
+#discussion_thread_container{
+  min-height: 400px;
+}
+
+.thumbnail h3{
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+#setting-form-container{
+  background-color: #f1f1f1;
+}
+
+.setting-form-title{
+  font-weight: bold;
+  font-size: 1.5em;
+  margin-top: 30px;
+}
+
+.form-container{
+  max-width: 800px;
+}
+
+.thumbnail-form-settings .btn{
+  float: none;
+  margin-top: 10px;
+}
+
+.row-question{
+  margin-top: 40px;
+}

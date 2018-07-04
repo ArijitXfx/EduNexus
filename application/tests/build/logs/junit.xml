@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="CodeIgniter Application Test Suite" tests="38" assertions="77" errors="0" failures="0" skipped="0" time="2.493623">
+    <testsuite name="AdminManager_model_test" file="C:\xampp\htdocs\codeigniter\application\tests\models\AdminManager_model_test.php" tests="4" assertions="8" errors="0" failures="0" skipped="0" time="0.281971">
+      <testcase name="test_showNGO" class="AdminManager_model_test" file="C:\xampp\htdocs\codeigniter\application\tests\models\AdminManager_model_test.php" line="34" assertions="2" time="0.046278"/>
+      <testcase name="test_insertNGO" class="AdminManager_model_test" file="C:\xampp\htdocs\codeigniter\application\tests\models\AdminManager_model_test.php" line="41" assertions="2" time="0.080486"/>
+      <testcase name="test_updateNGO" class="AdminManager_model_test" file="C:\xampp\htdocs\codeigniter\application\tests\models\AdminManager_model_test.php" line="49" assertions="2" time="0.043969"/>
+      <testcase name="test_deleteNGO" class="AdminManager_model_test" file="C:\xampp\htdocs\codeigniter\application\tests\models\AdminManager_model_test.php" line="59" assertions="2" time="0.111238"/>
+    </testsuite>
+    <testsuite name="CourseManager_model_test" file="C:\xampp\htdocs\codeigniter\application\tests\models\CourseManager_model_test.php" tests="10" assertions="26" errors="0" failures="0" skipped="0" time="0.879501">
+      <testcase name="test_getVerifiedCourses" class="CourseManager_model_test" file="C:\xampp\htdocs\codeigniter\application\tests\models\CourseManager_model_test.php" line="42" assertions="4" time="0.079807"/>
+      <testcase name="test_showCourseWithID" class="CourseManager_model_test" file="C:\xampp\htdocs\codeigniter\application\tests\models\CourseManager_model_test.php" line="75" assertions="3" time="0.148385"/>
+      <testcase name="test_getAllCourses" class="CourseManager_model_test" file="C:\xampp\htdocs\codeigniter\application\tests\models\CourseManager_model_test.php" line="96" assertions="4" time="0.018527"/>
+      <testcase name="test_getNonVerifiedCourses" class="CourseManager_model_test" file="C:\xampp\htdocs\codeigniter\application\tests\models\CourseManager_model_test.php" line="128" assertions="3" time="0.013453"/>
+      <testcase name="test_setRequiredCourses" class="CourseManager_model_test" file="C:\xampp\htdocs\codeigniter\application\tests\models\CourseManager_model_test.php" line="160" assertions="2" time="0.111198"/>
+      <testcase name="test_setCourses" class="CourseManager_model_test" file="C:\xampp\htdocs\codeigniter\application\tests\models\CourseManager_model_test.php" line="183" assertions="2" time="0.077061"/>
+      <testcase name="test_setVerifiedCourse" class="CourseManager_model_test" file="C:\xampp\htdocs\codeigniter\application\tests\models\CourseManager_model_test.php" line="195" assertions="2" time="0.164797"/>
+      <testcase name="test_setNonVerifiedCourse" class="CourseManager_model_test" file="C:\xampp\htdocs\codeigniter\application\tests\models\CourseManager_model_test.php" line="209" assertions="2" time="0.133465"/>
+      <testcase name="test_deleteRequiredCourse" class="CourseManager_model_test" file="C:\xampp\htdocs\codeigniter\application\tests\models\CourseManager_model_test.php" line="224" assertions="2" time="0.055645"/>
+      <testcase name="test_deleteCourse" class="CourseManager_model_test" file="C:\xampp\htdocs\codeigniter\application\tests\models\CourseManager_model_test.php" line="249" assertions="2" time="0.077163"/>
+    </testsuite>
+    <testsuite name="DiscussionPortalManager_model_test" file="C:\xampp\htdocs\codeigniter\application\tests\models\DiscussionPortalManager_model_test.php" tests="11" assertions="23" errors="0" failures="0" skipped="0" time="0.489793">
+      <testcase name="test_setDiscussion" class="DiscussionPortalManager_model_test" file="C:\xampp\htdocs\codeigniter\application\tests\models\DiscussionPortalManager_model_test.php" line="25" assertions="2" time="0.173563"/>
+      <testcase name="test_getDiscussion" class="DiscussionPortalManager_model_test" file="C:\xampp\htdocs\codeigniter\application\tests\models\DiscussionPortalManager_model_test.php" line="31" assertions="4" time="0.017261"/>
+      <testcase name="test_setAnswer" class="DiscussionPortalManager_model_test" file="C:\xampp\htdocs\codeigniter\application\tests\models\DiscussionPortalManager_model_test.php" line="41" assertions="2" time="0.082407"/>
+      <testcase name="test_getAnswer" class="DiscussionPortalManager_model_test" file="C:\xampp\htdocs\codeigniter\application\tests\models\DiscussionPortalManager_model_test.php" line="47" assertions="2" time="0.034380"/>
+      <testcase name="test_getUpvoteDownvote" class="DiscussionPortalManager_model_test" file="C:\xampp\htdocs\codeigniter\application\tests\models\DiscussionPortalManager_model_test.php" line="53" assertions="1" time="0.012474"/>
+      <testcase name="test_setVoteCount" class="DiscussionPortalManager_model_test" file="C:\xampp\htdocs\codeigniter\application\tests\models\DiscussionPortalManager_model_test.php" line="58" assertions="2" time="0.063035"/>
+      <testcase name="test_setUpvote" class="DiscussionPortalManager_model_test" file="C:\xampp\htdocs\codeigniter\application\tests\models\DiscussionPortalManager_model_test.php" line="67" assertions="2" time="0.018960"/>
+      <testcase name="test_setDownvote" class="DiscussionPortalManager_model_test" file="C:\xampp\htdocs\codeigniter\application\tests\models\DiscussionPortalManager_model_test.php" line="73" assertions="2" time="0.035528"/>
+      <testcase name="test_setDuplicateLink" class="DiscussionPortalManager_model_test" file="C:\xampp\htdocs\codeigniter\application\tests\models\DiscussionPortalManager_model_test.php" line="79" assertions="2" time="0.013106"/>
+      <testcase name="test_cancelDuplicateLink" class="DiscussionPortalManager_model_test" file="C:\xampp\htdocs\codeigniter\application\tests\models\DiscussionPortalManager_model_test.php" line="85" assertions="2" time="0.018347"/>
+      <testcase name="test_getTeacherFromCourse" class="DiscussionPortalManager_model_test" file="C:\xampp\htdocs\codeigniter\application\tests\models\DiscussionPortalManager_model_test.php" line="91" assertions="2" time="0.020732"/>
+    </testsuite>
+    <testsuite name="LoginManager_model_test" file="C:\xampp\htdocs\codeigniter\application\tests\models\LoginManager_model_test.php" tests="5" assertions="5" errors="0" failures="0" skipped="0" time="0.208050">
+      <testcase name="test_authenticateByPassword" class="LoginManager_model_test" file="C:\xampp\htdocs\codeigniter\application\tests\models\LoginManager_model_test.php" line="37" assertions="1" time="0.068237"/>
+      <testcase name="test_getSecuredInfo" class="LoginManager_model_test" file="C:\xampp\htdocs\codeigniter\application\tests\models\LoginManager_model_test.php" line="72" assertions="1" time="0.021136"/>
+      <testcase name="test_changeUserDetails" class="LoginManager_model_test" file="C:\xampp\htdocs\codeigniter\application\tests\models\LoginManager_model_test.php" line="88" assertions="1" time="0.029990"/>
+      <testcase name="test_changePassword" class="LoginManager_model_test" file="C:\xampp\htdocs\codeigniter\application\tests\models\LoginManager_model_test.php" line="105" assertions="1" time="0.033562"/>
+      <testcase name="test_deleteMyAccount" class="LoginManager_model_test" file="C:\xampp\htdocs\codeigniter\application\tests\models\LoginManager_model_test.php" line="139" assertions="1" time="0.055125"/>
+    </testsuite>
+    <testsuite name="NGOManager_model_test" file="C:\xampp\htdocs\codeigniter\application\tests\models\NGOManager_model_test.php" tests="7" assertions="14" errors="0" failures="0" skipped="0" time="0.548614">
+      <testcase name="test_getVolunteers" class="NGOManager_model_test" file="C:\xampp\htdocs\codeigniter\application\tests\models\NGOManager_model_test.php" line="44" assertions="2" time="0.072807"/>
+      <testcase name="test_insertVolunteer" class="NGOManager_model_test" file="C:\xampp\htdocs\codeigniter\application\tests\models\NGOManager_model_test.php" line="51" assertions="2" time="0.056832"/>
+      <testcase name="test_updateVolunteer" class="NGOManager_model_test" file="C:\xampp\htdocs\codeigniter\application\tests\models\NGOManager_model_test.php" line="59" assertions="2" time="0.077233"/>
+      <testcase name="test_deleteVolunteer" class="NGOManager_model_test" file="C:\xampp\htdocs\codeigniter\application\tests\models\NGOManager_model_test.php" line="70" assertions="2" time="0.087954"/>
+      <testcase name="test_getTeachers" class="NGOManager_model_test" file="C:\xampp\htdocs\codeigniter\application\tests\models\NGOManager_model_test.php" line="83" assertions="2" time="0.023282"/>
+      <testcase name="test_changeVerifiedStatus" class="NGOManager_model_test" file="C:\xampp\htdocs\codeigniter\application\tests\models\NGOManager_model_test.php" line="91" assertions="2" time="0.158838"/>
+      <testcase name="test_deleteTeacher" class="NGOManager_model_test" file="C:\xampp\htdocs\codeigniter\application\tests\models\NGOManager_model_test.php" line="100" assertions="2" time="0.071668"/>
+    </testsuite>
+    <testsuite name="TeachernManager_model_test" file="C:\xampp\htdocs\codeigniter\application\tests\models\TeacherManager_model_test.php" tests="1" assertions="1" errors="0" failures="0" skipped="0" time="0.085694">
+      <testcase name="test_registerTeacher" class="TeachernManager_model_test" file="C:\xampp\htdocs\codeigniter\application\tests\models\TeacherManager_model_test.php" line="27" assertions="1" time="0.085694"/>
+    </testsuite>
+  </testsuite>
+</testsuites>

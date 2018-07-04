@@ -1,0 +1,23 @@
+<script type="text/javascript">
+  function verify(){
+
+    var userotp=document.getElementById('otp').value;
+
+    if(isNaN(userotp) || userotp.length<6){
+      alert("OTP doesn't meet required format.");
+      alert(userotp);
+      return false;
+    }
+    else{
+      alert('ready to proceed');
+      return false;
+
+    }
+    return false;
+  }
+
+</script>
+<form action="" method="post" onsubmit="return verify();">
+Enter OTP : <input type="text" name="otp" id="otp" placeholder="OTP HERE"/>
+<input type="submit" value="Verify OTP"/>
+</form>
